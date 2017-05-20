@@ -5,6 +5,14 @@
   "main": "gulpfile.js",
   "author": "Stian Myklebostad",
   "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Otard95/p5-First-Project.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Otard95/p5-First-Project/issues"
+  },
+  "homepage": "https://github.com/Otard95/p5-First-Project.git#readme",
   "devDependencies": {
     "browser-sync": "^2.18.11",
     "gulp": "*",
