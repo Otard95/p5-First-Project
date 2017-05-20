@@ -1,0 +1,13 @@
+{
+  "name": "First",
+  "version": "1.0.0",
+  "description": "First test og p5-js",
+  "main": "gulpfile.js",
+  "author": "Stian Myklebostad",
+  "license": "MIT",
+  "devDependencies": {
+    "browser-sync": "^2.18.11",
+    "gulp": "*",
+    "gulp-pug2": "^0.0.2"
+  }
+}
