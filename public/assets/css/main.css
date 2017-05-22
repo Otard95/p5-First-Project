@@ -13,3 +13,6 @@ li {
 a {
   color: #386;
   text-decoration: none; }
+
+.num {
+  font-family: 'Fira Mono', monospace; }

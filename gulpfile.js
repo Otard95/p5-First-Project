@@ -19,7 +19,6 @@ gulp.task('browser-sync', function() {
 });
 
 gulp.task('reload', function() {
-  console.log('reload');
   browser_sync.reload();
 });
 
