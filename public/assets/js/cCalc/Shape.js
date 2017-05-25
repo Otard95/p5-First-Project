@@ -5,9 +5,10 @@
 
 class Shape {
 
-  constructor (x, y) {
+  constructor (x, y, a) {
     this.x = x;
     this.y = y;
+    this.a = a;
   }
 
   show() {

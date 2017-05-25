@@ -13,11 +13,12 @@ function setup() {
   createCanvas(600,600);
   background(51);
   angleMode(DEGREES);
+  frameRate(30);
 
   shapes = [];
 
-  shapes.push(new Square(100,100, 100, 100, 20));
-  shapes.push(new Square(90, 90, 10, 10, 0));
+  shapes.push(new Square(150,150, 100, 100, 20));
+  shapes.push(new Square(95, 95, 10, 10, 0));
 
   // Setup FPS counter
   fs = createP('');
@@ -34,7 +35,7 @@ function draw() {
 
   // Main Loop
   background(51);
-  
+
   for (var s in shapes) {
     shapes[s].show();
   }
